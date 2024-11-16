@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
     int days=30;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Login Page",),
+        title: Text("Home Page",),
       ),
       body: Center(
         child: Container(
@@ -16,9 +16,5 @@ class HomePage extends StatelessWidget {
       ),
       drawer: Drawer(),
     );
-    
-       
-    
-    
   }
 }
